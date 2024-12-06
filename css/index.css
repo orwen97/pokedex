@@ -19,6 +19,7 @@ h3 {
     display: flex;
     gap: 4rem;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -33,13 +34,22 @@ h3 {
     box-shadow: 6px 6px 10px rgb(184, 200, 234);
     border-radius: 1rem;
     background-color: rgb(216, 242, 241);
+    transition: transform 0.2s ease;
+}
+
+.pokemons div:hover{
+    transform: scale(1.1);
 }
 
 .pokemons div .types{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     box-shadow: none;
+}
+
+.pokemons div .types {
+    transform: unset;
 }
 
 .pokemons div img{
