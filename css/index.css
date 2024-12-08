@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* index */
+
 body {
     background-color: rgb(106, 117, 184);
 }
@@ -12,6 +15,23 @@ h1{
     padding: 2rem;
     background-color: rgb(215, 212, 248);
 }
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    background-color: rgb(215, 212, 248);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(3, 3, 60);
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+    padding: 0.3rem  0.6rem 0rem 0.6rem;
+}
+
+
 h3 {
     text-align: center;
 }
@@ -124,4 +144,65 @@ h3 {
     padding-top: .1rem;
     border-radius: .5rem;
     
+}
+
+/* pokedex */
+
+.side-a{
+    background-color: rgb(176, 0, 0);
+    width: 25rem;
+    height: 32rem;
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.gray-border{
+    background-color: darkgray;
+    width: 20rem;
+    height: 15rem;
+    margin-top: 6rem;
+    align-self: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 2.5rem;
+}
+
+.buttons2{
+    background-color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 0.8rem;
+}
+.button-circle{
+    background-color: rgb(29, 1, 1);
+    width: 2.2rem;
+    height: 2rem;
+    border-radius: 10rem;
+    margin-right: 1rem;
+}
+
+.button-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    
+}
+
+#buttonImg{
+    width: 8rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
 }
