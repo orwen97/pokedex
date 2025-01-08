@@ -22,7 +22,7 @@ Próximamente, se planea:
 ## Visualización del Proyecto  
 
 El proyecto está desplegado y puedes explorarlo a través del siguiente enlace:  
-[Ver Deployment en GitHub Pages](URL_DEL_DEPLOYMENT)  
+[Ver Deployment en GitHub Pages](https://orwen97.github.io/pokedex/)  
 
 ## Cómo Ejecutarlo Localmente  
 
