@@ -28,4 +28,4 @@ El proyecto está desplegado y puedes explorarlo a través del siguiente enlace:
 
 1. Clona el repositorio en tu máquina local:  
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
+   git clone https://github.com/orwen97/pokedex
